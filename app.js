@@ -5,7 +5,7 @@ class Water {
 
 	constructor() {
 		this.audio = new Audio();
-		this.audio.src = "music5.flac";
+		this.audio.src = "music4.mp3";
 
 		this.renderer = new THREE.WebGLRenderer({antialias: true});
 		this.renderer.shadowMap.enabled = true;
